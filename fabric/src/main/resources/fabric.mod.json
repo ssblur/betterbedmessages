@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "betterbedmessages",
+  "version": "${version}",
+  "name": "Better Bed Messages",
+  "description": "Adds very useful messages to let you know why you can't sleep.",
+  "authors": [
+    "SSBlur"
+  ],
+  "contact": {
+    "sources": "https://github.com/ssblur/betterbedmessages"
+  },
+  "license": "WTFPL",
+  "icon": "assets/betterbedmessages/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  "main": [
+    "com.ssblur.betterbedmessages.fabric.BetterBedMessagesFabric"
+  ]
+  },
+  "depends": {
+  "fabric": "*",
+  "minecraft": ">=1.20.1",
+  "architectury": ">=9.1.12"
+  }
+}

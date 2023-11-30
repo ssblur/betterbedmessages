@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "WTFPL"
+
+[[mods]]
+modId = "betterbedmessages"
+version = "${version}"
+displayName = "Better Bed Messages"
+authors = "SSBlur"
+description = '''
+Adds very useful messages to let you know why you can't sleep.
+'''
+#logoFile = ""
+
+[[dependencies.betterbedmessages]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.betterbedmessages]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.betterbedmessages]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.12,)"
+ordering = "AFTER"
+side = "BOTH"
